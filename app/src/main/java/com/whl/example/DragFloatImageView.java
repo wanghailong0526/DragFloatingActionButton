@@ -3,6 +3,7 @@ package com.whl.example;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.AppCompatImageButton;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
@@ -14,7 +15,7 @@ import android.widget.ImageButton;
  * Desc:可拖拽的ImageView
  */
 
-public class DragFloatImageView extends ImageButton {
+public class DragFloatImageView extends AppCompatImageButton {
 
     private int parentHeight;
     private int parentWidth;
